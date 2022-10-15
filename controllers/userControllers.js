@@ -43,7 +43,7 @@ const createNewUser = asyncHandler(async (req, res) => {
 // @access Private - pending
 const updateUser = asyncHandler(async (req, res) => {
     const {id, username, roles, active, password} = req.body
-    if(!id || !username || !Array.isArray(roles) || !roles.length || typeof active !== boolean){
+    if(!id || !username || !Array.isArray(roles) || !roles.length || typeof active !== 'boolean'){
         return res.status(400).json({message: 'All fields are required'})
     }
     const user = await User.findById(id).exec()
@@ -91,5 +91,4 @@ module.exports = {
     createNewUser,
     updateUser,
     deleteUser
-
 }
