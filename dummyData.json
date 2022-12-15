@@ -1,0 +1,50 @@
+{
+    "username": "Akon",
+    "password": "12345678",
+    "roles": [
+        "Employee"
+    ]
+}
+{
+    "username": "Gulam",
+    "password": "12345678",
+    "roles": [
+        "Employee"
+    ]
+},
+{
+    "username": "Rahul",
+    "password": "12345678",
+    "roles": [
+        "Employee"
+    ]
+},
+{
+    "username": "Arun",
+    "password": "12345678",
+    "roles": [
+        "Employee"
+    ]
+},
+{
+    "username": "Gulam",
+    "password": "12345678",
+    "roles": [
+        "Employee"
+    ]
+}
+
+
+
+{
+    "user": "6396c87e9f1df586ed7f34ad",
+    "title": "Test",
+    "text": "This is test text",
+    "completed": true 
+}
+{
+    "user": "6396c9fe087e3888461520ff",
+    "title": "Test 2",
+    "text": "This is test 2 text",
+    "completed": false
+}

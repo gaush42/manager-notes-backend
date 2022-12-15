@@ -61,7 +61,7 @@ const createNewNotes = asyncHandler(async (req, res) => {
 //@desc Update Notes
 //@route PATCH /notes
 //@access Private
-const updateNote = asyncHandler(async(re, res)=>{
+const updateNote = asyncHandler(async(req, res)=>{
     const { id, user, title, text, completed }  = req.body;
 
     //confirm data
